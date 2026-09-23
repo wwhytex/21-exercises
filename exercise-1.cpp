@@ -4,9 +4,8 @@ using namespace std;
 int main() {
 	string name;
 
-	cout << "Qual e o teu nome? " << endl;
+	cout << "What's your name? " << endl;
 	cin >> name;
-	cout << "Ola " << name << " bem-vindo a programacao!";
+	cout << "Hi " << name << " your-welcome to programmation!";
 	return 0;
-
 }
