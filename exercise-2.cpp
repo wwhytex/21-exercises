@@ -5,10 +5,10 @@ int main() {
 	string name;
 	int age;
 
-	cout << "Qual e a  tua idade? " << endl;
+	cout << "What's your age? " << endl;
 	cin >> age;
-	cout << "Qual e o teu nome? " << endl;
+	cout << "What's your name? " << endl;
 	cin >> name;
-	cout << "Ola sou o " << name << " e tenho anos " << age << endl;
+	cout << "Hi i'm " << name << " and i have " << age << endl;
 	return 0;
 }
