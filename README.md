@@ -1,5 +1,3 @@
-Pseudocode Exercises — English
-
 🟢 Level 1 — Input, output and variables
 
 1. Hello, student!
