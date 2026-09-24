@@ -16,13 +16,13 @@ int main() {
 	if (input == "-") {
 		cout << a - b << endl;
 	}
-	if (input == "+") {
+	else if (input == "+") {
 		cout << a + b << endl;
 	}
-	if (input == "*") {
+	else if (input == "*") {
 		cout << a * b << endl;
 	}
-	if (input == "/") {
+	else if (input == "/") {
 		cout << a / b << endl;
 	}
 	else {
