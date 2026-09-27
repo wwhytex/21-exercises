@@ -4,29 +4,13 @@ using namespace std;
 int main() {
 	double a;
 	double b;
-	string input;
 
-	cout << "What's your first number?" << endl;
-	cin >> a;
-	cout << "What's your second number?" << endl;
-	cin >> b;
-	cout << "What's the mathematical operation? ( - , + , * , / ) are available." << endl;
-	cin >> input;
+	cout << "Write 2 numbers" << endl;
+	cin >> a >> b;
 
-	if (input == "-") {
-		cout << a - b << endl;
-	}
-	else if (input == "+") {
-		cout << a + b << endl;
-	}
-	else if (input == "*") {
-		cout << a * b << endl;
-	}
-	else if (input == "/") {
-		cout << a / b << endl;
-	}
-	else {
-		cout << "Invalid operation" << endl;
-	}
+	cout << "Sum " << a + b << endl;
+	cout << "Difference " << a - b << endl;
+	cout << "Quotient " << a / b << endl;
+	cout << "Product " << a * b << endl;
 	return 0;
 }
